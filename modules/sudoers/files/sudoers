@@ -1,0 +1,4 @@
+# User privilege specification
+       root   ALL = (ALL) ALL
+       binoy  ALL = (ALL) NOPASSWD:ALL
+       ajesh  ALL = (ALL) NOPASSWD: /bin/ls

@@ -1,0 +1,6 @@
+Port 22
+       Protocol 2
+       PermitRootLogin yes
+       PasswordAuthentication no
+       AllowUsers binoy ajesh git
+       UsePAM yes
