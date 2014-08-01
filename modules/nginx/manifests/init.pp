@@ -6,10 +6,10 @@ class nginx {
 	ensure => stopped,
 	}
 
-	#package { 'httpd':
-	#ensure => 'removed',
-	#require => Service['httpd'],
-	#}
+	package { 'httpd':
+	ensure => 'removed',
+	require => Service['httpd'],
+	}
 
 	package { 'nginx':
 	ensure => installed,
