@@ -11,10 +11,10 @@ class nginx {
 	#require => Service['httpd'],
 	#}
 
-	package { 'nginx':
-	ensure => installed,
+	#package { 'nginx':
+	#ensure => installed,
 	#require => Package['httpd'],
-	}
+	#}
 
 	service { 'nginx':
 	ensure => 'running',
