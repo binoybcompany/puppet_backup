@@ -5,7 +5,7 @@
 #	}
 #}
 
-node 'puppetmaster' {
+node puppetmaster' {
 #	 package { 'nginx':
 #	 ensure  => installed,
 #	}
