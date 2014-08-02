@@ -15,11 +15,11 @@ class nginx {
 	ensure => absent,
 	}
 	
-	#file { '/etc/nginx/site-enabled/default':
-	#ensure => present,
-	#source => 'puppet:///modules/nginx/cat-pictures.conf',
-	#notify => Service ['nginx'],
-	#}
+	file { '/etc/nginx/site-enabled/default':
+	ensure => present,
+	source => 'puppet:///modules/nginx/cat-pictures.conf',
+	notify => Service ['nginx'],
+	}
 }
 
 
